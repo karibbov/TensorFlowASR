@@ -59,7 +59,7 @@ learning_config:
   train_dataset_config:
     use_tf: True
     data_paths:
-      - /content/TensorFlowASR/Data/LibriSpeech/train-clean-100/transcripts.tsv
+      - /content/TensorFlowASR/Data/LibriSpeech/test-other/transcripts.tsv
     tfrecords_dir: /content/TensorFlowASR/Data/LibriSpeech/tfrecords-test
     shuffle: True
     cache: True
